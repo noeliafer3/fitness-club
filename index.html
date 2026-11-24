@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fitness Club Gym</title>
+  <meta name="description" content="Fitness Club Gym: piscina, spa, entrenamiento personalizado y actividades dirigidas. Consulta cuotas, horarios y contacto.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== Header ===== -->
+  <header class="header" id="header">
+    <a href="#inicio" class="logo-link">
+      <img src="img/logo.svg" alt="Fitness Club Gym" width="174" height="62">
+    </a>
+
+    <button class="menu-btn" id="menu-btn" aria-label="Abrir menú" aria-expanded="false">☰</button>
+
+    <nav class="nav" id="nav" aria-label="Principal">
+      <ul class="nav-list">
+        <li><a href="#instalaciones">Instalaciones</a></li>
+        <li><a href="#cuotas">Cuotas</a></li>
+        <li><a href="#horarios">Horarios</a></li>
+        <li><a href="#actividades">Actividades</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <ul class="social">
+        <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="img/instagram.png" alt="Instagram" width="24" height="24"></a></li>
+        <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="img/facebook.png" alt="Facebook" width="24" height="24"></a></li>
+        <li><a href="https://x.com/" target="_blank" rel="noopener"><img src="img/x.png" alt="X" width="24" height="24"></a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="inicio">
+      <div class="hero-text">
+        <h1>Sé tu mejor versión</h1>
+        <p class="hero-sub">Inscríbete</p>
+        <a href="#contacto" class="btn btn-lime">Apúntate</a>
+      </div>
+      <div class="hero-photo">
+        <img src="img/entrenando.jpg" alt="Entrenadores del gimnasio" width="900" height="594">
+        <div class="badge">
+          <span class="badge-big">20%</span>
+          <span>descuento en nuevas matrículas hasta el 20 de Junio</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Instalaciones ===== -->
+    <section class="instalaciones" id="instalaciones">
+      <h2>Instalaciones</h2>
+      <div class="photos">
+        <img src="img/instalaciones-1.jpg" alt="Piscina climatizada" width="800" height="533" loading="lazy">
+        <img src="img/instalaciones-2.jpg" alt="Pistas de tenis y pádel" width="800" height="599" loading="lazy">
+        <img src="img/instalaciones-3.jpg" alt="Zona de spa y relajación" width="800" height="533" loading="lazy">
+      </div>
+      <p class="instalaciones-text">
+        Piscina climatizada, pistas de tenis y pádel, zona de spa y relajación... Todas estas instalaciones forman parte del completo equipamiento deportivo que ofrece nuestro centro. Además, contamos con un equipo de profesionales altamente cualificados que te ayudarán a alcanzar tus objetivos y mejorar tu salud y bienestar. ¡No esperes más y ven a conocernos! Te esperamos con los brazos abiertos en nuestro gimnasio.
+      </p>
+    </section>
+
+    <!-- Cuotas y Servicios comparten el mismo fondo -->
+    <div class="fondo-doble">
+
+      <!-- ===== Cuotas ===== -->
+      <section class="cuotas" id="cuotas">
+        <h2 class="title-lime">Cuotas</h2>
+        <div class="cards">
+
+          <article class="card">
+            <h3>Plan Basic</h3>
+            <ul>
+              <li>Acceso a instalaciones mañana o tarde</li>
+              <li>Acceso a piscinas mañana o tarde</li>
+              <li>Taquilla</li>
+              <li>Acceso área wellness &amp; SPA</li>
+              <li>Servicio de entrenamiento</li>
+            </ul>
+            <p class="price"><span>15€</span>/mes</p>
+          </article>
+
+          <article class="card">
+            <h3>Mensual</h3>
+            <ul>
+              <li>Acceso a instalaciones</li>
+              <li>Acceso a piscinas</li>
+              <li>Taquilla personal</li>
+              <li>Servicio entrenamiento personalizado</li>
+              <li>Servicio de nutrición &amp; fisioterapia</li>
+              <li>Acceso área wellness &amp; SPA</li>
+            </ul>
+            <p class="price"><span>39€</span>/mes</p>
+          </article>
+
+          <article class="card">
+            <h3>Completo</h3>
+            <ul>
+              <li>Acceso a instalaciones</li>
+              <li>Acceso a piscinas</li>
+              <li>Taquilla personal</li>
+              <li>Servicio entrenamiento personalizado</li>
+              <li>Servicio de nutrición &amp; fisioterapia</li>
+              <li>Acceso área wellness &amp; SPA ilimitado</li>
+            </ul>
+            <p class="price"><span>49€</span>/mes</p>
+          </article>
+
+        </div>
+      </section>
+
+      <!-- ===== Servicios ===== -->
+      <section class="servicios" id="servicios">
+        <h2 class="title-lime">Servicios</h2>
+        <div class="services">
+
+          <article class="service">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true">
+              <circle cx="14" cy="46" r="10"/><circle cx="50" cy="46" r="10"/>
+              <path d="M14 46 L28 24 H44 L50 46 M28 24 L36 46 H14 M24 16 H34 M44 24 L40 14 H48"/>
+            </svg>
+            <h3>Fitness &amp; Cardio</h3>
+            <p>Desde cintas de correr y bicicletas estáticas, hasta máquinas de remo y elípticas todo listo para alcanzar tus objetivos. Además, nuestro equipo de profesionales está a tu disposición para guiarte en la utilización de cada una de estas máquinas y ayudarte a diseñar un plan de entrenamiento personalizado.</p>
+          </article>
+
+          <article class="service">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true">
+              <circle cx="32" cy="32" r="22"/><circle cx="32" cy="32" r="3"/>
+              <path d="M32 10 V18 M54 32 H46 M10 32 H18 M32 54 V46 M32 32 L44 20"/>
+            </svg>
+            <h3>Indoor Cycling</h3>
+            <p>Ejercicio de intensidad media-alta, sobre una bicicleta con resistencia variable al ritmo de la mejor música y con un sistema de gamificación y con la tecnología más avanzada.</p>
+          </article>
+
+          <article class="service">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true">
+              <path d="M6 24 V40 M14 18 V46 M50 18 V46 M58 24 V40 M14 32 H50"/>
+            </svg>
+            <h3>Weights Zone</h3>
+            <p>En esta área del gimnasio, los usuarios pueden encontrar una amplia variedad de equipos de entrenamiento de fuerza, como mancuernas, barras, pesas rusas y máquinas de musculación.</p>
+          </article>
+
+          <article class="service">
+            <svg class="icon" viewBox="0 0 64 64" aria-hidden="true">
+              <circle cx="32" cy="10" r="5"/>
+              <path d="M32 16 V34 M10 24 L32 28 L54 24 M32 34 L18 56 M32 34 L46 56"/>
+            </svg>
+            <h3>Actividades dirigidas</h3>
+            <p>Ofrecemos actividades dirigidas, desde yoga y pilates hasta boxing, fitness o actividades con coreografías. Contamos con instructores altamente capacitados en cada disciplina, quienes se encargarán de guiar y motivarte durante cada sesión.</p>
+          </article>
+
+        </div>
+      </section>
+    </div>
+
+    <!-- ===== Horarios y Actividades ===== -->
+    <section class="horarios-actividades">
+      <div class="col" id="horarios">
+        <h2>Horarios</h2>
+        <p><strong>Lunes a Sábado</strong><br>7:00 h - 21:00 h</p>
+        <p><strong>Domingos y festivos</strong><br>8:00 h - 16:00 h</p>
+      </div>
+      <div class="col" id="actividades">
+        <h2>Actividades</h2>
+        <p>Descárgate el horario de actividades en pdf</p>
+        <!-- Cuando tengas el PDF, guárdalo como pdf/actividades.pdf -->
+        <a href="pdf/actividades.pdf" class="btn btn-black" target="_blank" rel="noopener">Actividades dirigidas</a>
+      </div>
+    </section>
+
+    <!-- ===== Contacto ===== -->
+    <section class="contacto" id="contacto">
+      <form class="form" id="form" action="https://formspree.io/f/meagvnpb" method="POST" novalidate>
+        <h2>Contacta</h2>
+
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <span class="error" id="error-nombre"></span>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <span class="error" id="error-email"></span>
+
+        <label for="asunto">Asunto</label>
+        <input type="text" id="asunto" name="asunto">
+        <span class="error" id="error-asunto"></span>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+        <span class="error" id="error-mensaje"></span>
+
+        <label class="check">
+          <input type="checkbox" id="terminos" name="terminos">
+          Acepto los términos.
+        </label>
+        <span class="error" id="error-terminos"></span>
+
+        <button type="submit" class="btn btn-white">Enviar</button>
+        <p class="form-ok" id="form-ok" role="status"></p>
+      </form>
+
+      <div class="contact-data">
+        <p class="phone">900 500 700</p>
+        <p>fitnessclub@gym-email.com</p>
+        <p>c/Una calle, 23<br>Ciudad / Ciudad, 08200</p>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="footer-main">
+      <div class="footer-col">
+        <h3>Contacto</h3>
+        <p>900 500 700</p>
+        <p>fitnessclub@gym-email.com</p>
+        <p>c/Una calle, 23<br>Ciudad / Ciudad, 08200</p>
+      </div>
+
+      <div class="footer-col footer-center">
+        <img src="img/logo.svg" alt="Fitness Club Gym" width="174" height="62" loading="lazy">
+        <ul class="social">
+          <li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><img src="img/instagram.png" alt="Instagram" width="24" height="24"></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank" rel="noopener"><img src="img/facebook.png" alt="Facebook" width="24" height="24"></a></li>
+          <li><a href="https://x.com/" target="_blank" rel="noopener"><img src="img/x.png" alt="X" width="24" height="24"></a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h3>Horario</h3>
+        <p>Lunes a Sábado<br>7:00 h a 21:00 h</p>
+        <p>Domingos y Festivos<br>8:00 h a 16:00 h</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <a href="#">Aviso legal</a>
+      <a href="#">Política de privacidad</a>
+      <a href="#">Política de cookies</a>
+      <span>© Fitness Club Gym</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
